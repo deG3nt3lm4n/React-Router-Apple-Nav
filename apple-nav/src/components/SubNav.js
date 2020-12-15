@@ -11,8 +11,8 @@ function SubNav({data}) {
 
 
   return (
-    <div>
-      <ul className='miniMenu'>
+    <div className='miniMenu'>
+      <ul className='miniMenuv2'>
         {
           data.filter(menu => menu.id === id).map(item => {
             item.subnav.map(nav => {
