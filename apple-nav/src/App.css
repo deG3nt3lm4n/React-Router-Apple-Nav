@@ -29,3 +29,17 @@
 .MainNav .wrapper ul li:first-child{
   margin-right: 50px;
 }
+
+.miniMenu{
+  width: 100%;
+}
+.miniMenuv2 {
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+.miniMenuv2 li{
+  padding: 10px;
+}

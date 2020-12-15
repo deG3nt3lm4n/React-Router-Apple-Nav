@@ -12,7 +12,7 @@ function SubNav({data}) {
 
   return (
     <div>
-      <ul>
+      <ul className='miniMenu'>
         {
           data.filter(menu => menu.id === id).map(item => {
             item.subnav.map(nav => {
